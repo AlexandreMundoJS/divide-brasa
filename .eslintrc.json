@@ -25,6 +25,12 @@
         "prettier"
     ],
     "rules": {
+        "prettier/prettier":[
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
         "camelcase": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "arrow-parens": [
@@ -44,7 +50,6 @@
         "react/react-in-jsx-scope": [
             "off"
         ],
-        "prettier/prettier": "error",
         "react/jsx-one-expression-per-line": "off",
         "react/jsx-props-no-spreading": "off",
         "react/prop-types": "off",
